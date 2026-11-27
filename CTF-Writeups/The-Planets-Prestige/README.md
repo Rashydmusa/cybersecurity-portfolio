@@ -1,0 +1,61 @@
+**The Planet's Prestige BTLO Challenge CTF investigation Report**
+
+Scenario
+
+CoCanDa, a planet known as 'The Heaven of the Universe' has been having a bad year. A series of riots have taken place across the planet due to the frequent abduction of citizens, known as CoCanDians, by a mysterious force. CoCanDa’s Planetary President arranged a war-room with the best brains and military leaders to work on a solution. After the meeting concluded the President was informed his daughter had disappeared. CoCanDa agents spread across multiple planets were working day and night to locate her. Two days later and there’s no update on the situation, no demand for ransom, not even a single clue regarding the whereabouts of the missing people. On the third day a CoCanDa representative, an Army Major on Earth, received an email.
+
+**Findings**
+
+Recipient: Army Major on Earth (themajor@gmail.com)  
+Attackers Host: emkei.cz [93.99.104.210]
+Spoofed sender address: billjobs@microapple.com
+Reply-To address was different from the sender address: negeja3921@pashter.com.
+The email contained base64 encoded content
+An attachment named PuzzleToCoCanDa.pdf in the email was discovered to be a zip folder and the it contains a jpeg, pdf and XLSX files.
+Base64 encoded content found in the XLSX file was decoded to find the location of the attacker The Martian Colony, Beside Interplanetary Spaceport
+Attachment metadata analysis identified the author as Pestero Negeja
+
+**Investigation summary**
+
+The Army Major on earth, received an email from a sender named Bill. This email is related to the whereabout of the President daughter and the missing people. During investigation of the email,  it was discovered that the email sender address was spoofed because the email was sent using a third-party email service, the reply-to was to a different sender and the SPF result returned fail. The attachment disguised as PDF was found to be a zip file containing three files and clues for finding the location of the attacker. The location of the attacker was discovered to be  The Martian Colony, Beside Interplanetary Spaceport while the name of the attacker was identified as Pestero Negeja after checking the metadata of the attachment.     
+
+
+**Who**
+Target: Army Major on Earth (themajoronearth@gmail.com)
+Impersonated Identity: billjobs@microapple.com
+Reply-To:negeja3921@pashter.com. 
+Suspected Attacker: Pestero Negeja
+
+**What:**
+A suspicious email was sent to Army Major on earth representing CoCanDa.
+The email contained base64 encoded content and zip file disguised as PDF attachment. 
+The attached file contains hidden information related to the abductions.  
+
+**Where:**
+Target Environment: Army Major on Earth
+Attackers domain:emkei.cz
+Suspected attackers location:The Martian Colony, Beside Interplanetary Spaceport
+ 
+
+**When:**
+Time email was received : 2021-01-25 22:41:18 -800 (PST)
+
+**Why:**
+The suspect motivation was kidnapping and ransom
+
+**How:**
+The attacker used a spoofed email to send to the target.
+The attacker used the domain emkei.cz
+The attacker use base64 encoding to conceal the email content. 
+zip file disguised as PDF attachment
+Hidden files and spreadsheet content were used to conceal additional information.
+
+**Recommendation**
+
+
+**Tools used**
+Notepad ++
+CyberChef
+exiftool
+HxD
+Openoffice
