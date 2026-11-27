@@ -34,9 +34,9 @@ The Army Major on earth, received an email from a sender named Bill. This email 
 - The attached file contains hidden information related to the abductions.  
 
 **Where:**
-- Target Environment: Army Major on Earth
-- Attackers domain:emkei.cz
-- Suspected attackers location:The Martian Colony, Beside Interplanetary Spaceport
+- **Target Environment:** Army Major on Earth
+- **Attackers domain:** emkei.cz
+- **Suspected attackers location:** The Martian Colony, Beside Interplanetary Spaceport
  
 
 **When:**
