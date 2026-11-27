@@ -24,40 +24,43 @@ The Army Major on earth, received an email from a sender named Bill. This email 
 
 **Who**
 - **Target:** Army Major on Earth (`themajoronearth@gmail.com`)
--**Impersonated Identity:** (`billjobs@microapple.com`)
-- Reply-To: negeja3921@pashter.com. 
-Suspected Attacker: Pestero Negeja
+- **Impersonated Identity:** (`billjobs@microapple.com`)
+- Reply-To: `negeja3921@pashter.com` 
+- Suspected Attacker: Pestero Negeja
 
 **What:**
-A suspicious email was sent to Army Major on earth representing CoCanDa.
-The email contained base64 encoded content and zip file disguised as PDF attachment. 
-The attached file contains hidden information related to the abductions.  
+- A suspicious email was sent to Army Major on earth representing CoCanDa.
+- The email contained base64 encoded content and zip file disguised as PDF attachment. 
+- The attached file contains hidden information related to the abductions.  
 
 **Where:**
-Target Environment: Army Major on Earth
-Attackers domain:emkei.cz
-Suspected attackers location:The Martian Colony, Beside Interplanetary Spaceport
+- Target Environment: Army Major on Earth
+- Attackers domain:emkei.cz
+- Suspected attackers location:The Martian Colony, Beside Interplanetary Spaceport
  
 
 **When:**
-Time email was received : 2021-01-25 22:41:18 -800 (PST)
+- Time email was received : 2021-01-25 22:41:18 -800 (PST)
 
 **Why:**
-The suspect motivation was kidnapping and ransom
+- The suspect motivation was kidnapping and ransom
 
 **How:**
-The attacker used a spoofed email to send to the target.
-The attacker used the domain emkei.cz
-The attacker use base64 encoding to conceal the email content. 
-zip file disguised as PDF attachment
-Hidden files and spreadsheet content were used to conceal additional information.
+- The attacker used a spoofed email to send to the target.
+- The attacker used the domain emkei.cz
+- The attacker use base64 encoding to conceal the email content. 
+- Zip file disguised as PDF attachment
+- Hidden files and spreadsheet content were used to conceal additional information.
 
 **Recommendation**
-
+- Preserve the original phishing email and attachments for investigation.
+- Block the identified malicious sender address and associated domains after evidence collection.
+- Quarantine or remove similar phishing emails from affected mailboxes.
+- Search for other recipients who may have received the same email.
 
 **Tools used**
-Notepad ++
-CyberChef
-exiftool
-HxD
-Openoffice
+- Notepad ++
+- CyberChef
+- Exiftool
+- HxD
+- Openoffice
