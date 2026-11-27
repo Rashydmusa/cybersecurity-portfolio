@@ -25,8 +25,8 @@ The Army Major on earth, received an email from a sender named Bill. This email 
 **Who**
 - **Target:** Army Major on Earth (`themajoronearth@gmail.com`)
 - **Impersonated Identity:** (`billjobs@microapple.com`)
-- Reply-To: `negeja3921@pashter.com` 
-- Suspected Attacker: Pestero Negeja
+- **Reply-To:** `negeja3921@pashter.com` 
+- **Suspected Attacker:** Pestero Negeja
 
 **What:**
 - A suspicious email was sent to Army Major on earth representing CoCanDa.
