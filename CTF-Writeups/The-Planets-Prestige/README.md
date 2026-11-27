@@ -4,16 +4,6 @@ Scenario
 
 CoCanDa, a planet known as 'The Heaven of the Universe' has been having a bad year. A series of riots have taken place across the planet due to the frequent abduction of citizens, known as CoCanDians, by a mysterious force. CoCanDa’s Planetary President arranged a war-room with the best brains and military leaders to work on a solution. After the meeting concluded the President was informed his daughter had disappeared. CoCanDa agents spread across multiple planets were working day and night to locate her. Two days later and there’s no update on the situation, no demand for ransom, not even a single clue regarding the whereabouts of the missing people. On the third day a CoCanDa representative, an Army Major on Earth, received an email.
 
-**Findings**
-
--Recipient: Army Major on Earth (themajor@gmail.com)  
--Attackers Host: emkei.cz [93.99.104.210]
--Spoofed sender address: billjobs@microapple.com
--Reply-To address was different from the sender address: negeja3921@pashter.com.
--The email contained base64 encoded content
--An attachment named PuzzleToCoCanDa.pdf in the email was discovered to be a zip folder and the it contains a jpeg, pdf and XLSX files.
--Base64 encoded content found in the XLSX file was decoded to find the location of the attacker The Martian Colony, Beside Interplanetary Spaceport
--Attachment metadata analysis identified the author as Pestero Negeja
 
 ### Findings
 
@@ -33,9 +23,9 @@ The Army Major on earth, received an email from a sender named Bill. This email 
 
 
 **Who**
-Target: Army Major on Earth (themajoronearth@gmail.com)
-Impersonated Identity: billjobs@microapple.com
-Reply-To:negeja3921@pashter.com. 
+- **Target:** Army Major on Earth (themajoronearth@gmail.com)
+-**Impersonated Identity:** billjobs@microapple.com
+**Reply-To:**negeja3921@pashter.com. 
 Suspected Attacker: Pestero Negeja
 
 **What:**
