@@ -15,6 +15,18 @@ CoCanDa, a planet known as 'The Heaven of the Universe' has been having a bad ye
 -Base64 encoded content found in the XLSX file was decoded to find the location of the attacker The Martian Colony, Beside Interplanetary Spaceport
 -Attachment metadata analysis identified the author as Pestero Negeja
 
+### Findings
+
+- **Recipient:** Army Major on Earth (`themajor@gmail.com`)
+- **Attacker's Host:** `emkei.cz` (`93.99.104.210`)
+- **Spoofed Sender Address:** `billjobs@microapple.com`
+- **Reply-To Address:** `negeja3921@pashter.com` (differs from the sender address)
+- **Email Encoding:** The email contained Base64-encoded content.
+- **Malicious Attachment:** An attachment named `PuzzleToCoCanDa.pdf` was discovered to be a ZIP archive containing JPEG, PDF, and XLSX files.
+- **Decoded Payload:** Base64-encoded content found inside the XLSX file decoded to reveal the attacker's location: *The Martian Colony, Beside Interplanetary Spaceport*.
+- **Metadata Analysis:** Attachment metadata identified the author as **Pestero Negeja**.
+
+
 **Investigation summary**
 
 The Army Major on earth, received an email from a sender named Bill. This email is related to the whereabout of the President daughter and the missing people. During investigation of the email,  it was discovered that the email sender address was spoofed because the email was sent using a third-party email service, the reply-to was to a different sender and the SPF result returned fail. The attachment disguised as PDF was found to be a zip file containing three files and clues for finding the location of the attacker. The location of the attacker was discovered to be  The Martian Colony, Beside Interplanetary Spaceport while the name of the attacker was identified as Pestero Negeja after checking the metadata of the attachment.     
