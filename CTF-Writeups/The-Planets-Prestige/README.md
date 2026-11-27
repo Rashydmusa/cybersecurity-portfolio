@@ -6,14 +6,14 @@ CoCanDa, a planet known as 'The Heaven of the Universe' has been having a bad ye
 
 **Findings**
 
-Recipient: Army Major on Earth (themajor@gmail.com)  
-Attackers Host: emkei.cz [93.99.104.210]
-Spoofed sender address: billjobs@microapple.com
-Reply-To address was different from the sender address: negeja3921@pashter.com.
-The email contained base64 encoded content
-An attachment named PuzzleToCoCanDa.pdf in the email was discovered to be a zip folder and the it contains a jpeg, pdf and XLSX files.
-Base64 encoded content found in the XLSX file was decoded to find the location of the attacker The Martian Colony, Beside Interplanetary Spaceport
-Attachment metadata analysis identified the author as Pestero Negeja
+-Recipient: Army Major on Earth (themajor@gmail.com)  
+-Attackers Host: emkei.cz [93.99.104.210]
+-Spoofed sender address: billjobs@microapple.com
+-Reply-To address was different from the sender address: negeja3921@pashter.com.
+-The email contained base64 encoded content
+-An attachment named PuzzleToCoCanDa.pdf in the email was discovered to be a zip folder and the it contains a jpeg, pdf and XLSX files.
+-Base64 encoded content found in the XLSX file was decoded to find the location of the attacker The Martian Colony, Beside Interplanetary Spaceport
+-Attachment metadata analysis identified the author as Pestero Negeja
 
 **Investigation summary**
 
